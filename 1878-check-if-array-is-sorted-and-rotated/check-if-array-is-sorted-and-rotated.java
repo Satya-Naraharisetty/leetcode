@@ -1,6 +1,6 @@
 class Solution {
     public boolean check(int[] nums) {
-        int count=0;
+        int count = 0;
         if (nums[0] < nums[nums.length - 1]){
             count++;
         }
